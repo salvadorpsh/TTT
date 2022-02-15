@@ -12,13 +12,17 @@ const server = () => {
     })
 }
 
+console.log(
+
 
 // ESPACIO PARA EDITAR
 
 
-//Intenta que el siguiente output no rompa *de cualquier manera que se te ocurra*
-
-console.log(server().payload.message);
+// Haz que el console log deje de romper e intenta loguear el mensaje
+server().payload.message
 
 
 // FIN ESPACIO PARA EDITAR
+
+
+);
